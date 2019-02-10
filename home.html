@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>mhw</title>
+    <style>
+        ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: darkseagreen;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+        * {
+            margin: 0;
+            padding: 0;
+        }
+   
+        body{
+            font: 300 15px/1.5 "Helvetica Neue", helvetica, arial, sans-serif;
+            margin: 12px;
+        }
+    
+        
+    
+        section {
+            clear:right;
+        }
+        
+        h1 {
+            font-size: 75px;
+            font-weight: 200;
+            letter-spacing: 15px;
+            text-align: center;
+        }
+        
+        h1, #main_content, #your_mood_link {
+            padding: 5px;
+        }
+        
+        p {
+            margin: 15px 0;
+        }
+        
+        a {
+            color: darkseagreen;
+        }
+        
+        #main_nav li {
+            float: left;
+            position: relative;
+            width: 170px;
+            list-style: none;
+            -webkit-transition: .5s;
+            transition: .5s;
+        }
+    
+        #main_nav > ul > li > a, h1 {
+            text-transform: uppercase;
+        }
+        
+        #main_nav ul ul {
+            position: absolute;
+            left: 0;
+            top: 100%;
+            visibility: hidden;
+            opacity: 0;
+        }
+        
+        #main_nav ul ul ul {
+            left: 100%;
+            top: 0;
+        }
+        
+        #main_nav li li li:hover {
+            background: #888;
+        }
+        
+        #main_nav li:hover > ul {
+            visibility: visible;
+            opacity: 1;
+        }
+        
+        body {
+  background-image: url("beach.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+}
+        
+    </style>
+    
+    </head>
+    
+        <ul>
+  <li><a href="home.html">Home</a></li>
+  <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">Your Mood Score</a>
+      <div class="dropdown-content">
+    <div class="dropdow-content">
+      <a href="what_is_it.html">What Is It?</a>
+      <a href="form.html">Journal</a>
+      </div>
+      </li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Need a Boost?</a>
+    <div class="dropdown-content">
+      <a href="video.html">The Only Video You'll Ever Need</a>
+      <a href="facts.html">Fun Facts</a>
+    </div>
+  </li>
+</ul>
+    
+    <body >
+    
+        <h1><b>How Ya Feeling Today?</b></h1>
+        
+            
+                <br/><br/><br/><br/>
+                
+                <p>Life sucks then you die. Try not to be miserable the entire time.</p>
+            </section>
+            
+            </article>
+        
+        </body>
+
+</html>
